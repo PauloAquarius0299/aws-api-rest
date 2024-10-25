@@ -1,5 +1,5 @@
-import { AuthService } from '@root/service/auth.service';
-import { AuthController } from './auth.controller';
+import { AuthService } from '../service/auth-service';
+import { AuthController } from './auth-controller';
 import { UnauthorizedException } from '@nestjs/common';
 
 describe('AuthController', () => {
